@@ -122,6 +122,12 @@ function setImage() {
     $circle.setAttribute('src', 'https://yt3.googleusercontent.com/zkqU90S1hyUU026hxvoWH2D08klRlL9K_q0fifNEthznaBvPEqaHoxZBadOSk6rmS58k-X2PvA=s900-c-k-c0x00ffffff-no-rj')
   }
 }
+
+    function setImage() {
+  if (getScore() >= 5000) {
+    $circle.setAttribute('src', 'https://static.wikia.nocookie.net/skibidi-tualet/images/0/04/Scientist_Toilet_1.0.png/revision/latest/scale-to-width/360?cb=20240531094705')
+  }
+}
     
 function getScore() {
   return Number(localStorage.getItem('score')) ?? 0
