@@ -116,7 +116,13 @@ function setImage() {
     $circle.setAttribute('src', 'https://steamuserimages-a.akamaihd.net/ugc/2038494310206033069/2FFBA39BB754CF0D0FC83C62636BAE30BE992758/?imw=512&amp;&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false')
   }
 }
-
+    
+function setImage() {
+  if (getScore() >= 1000) {
+    $circle.setAttribute('src', 'https://yt3.googleusercontent.com/zkqU90S1hyUU026hxvoWH2D08klRlL9K_q0fifNEthznaBvPEqaHoxZBadOSk6rmS58k-X2PvA=s900-c-k-c0x00ffffff-no-rj')
+  }
+}
+    
 function getScore() {
   return Number(localStorage.getItem('score')) ?? 0
 }
