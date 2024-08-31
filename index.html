@@ -110,34 +110,9 @@ function setScore(score) {
   localStorage.setItem('score', score)
   $score.textContent = score
 }
-
-function setImage() {
-  if (getScore() >= 500) {
-    $circle.setAttribute('src', 'https://steamuserimages-a.akamaihd.net/ugc/2038494310206033069/2FFBA39BB754CF0D0FC83C62636BAE30BE992758/?imw=512&amp;&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=false')
-  }
-}
     
 function setImage() {
   if (getScore() >= 1000) {
-    $circle.setAttribute('src', 'https://yt3.googleusercontent.com/zkqU90S1hyUU026hxvoWH2D08klRlL9K_q0fifNEthznaBvPEqaHoxZBadOSk6rmS58k-X2PvA=s900-c-k-c0x00ffffff-no-rj')
-  }
-}
-
-
-function setImage() {
-  if (getScore() >= 5000) {
-    $circle.setAttribute('src', 'https://static.wikia.nocookie.net/90048267-f36f-4c8e-8afc-384457d50fb4/scale-to-width/370')
-  }
-}
-
-function setImage() {
-  if (getScore() >= 10000) {
-    $circle.setAttribute('src', 'https://static.wikia.nocookie.net/skibidi-tualet/images/b/b4/Scientist_Skibidi_Toilet_with_titan_tv_man_screen.webp/revision/latest?cb=20231224140301')
-  }
-}
-    
-function setImage() {
-  if (getScore() >= 100000) {
     $circle.setAttribute('src', 'https://static.wikia.nocookie.net/skibidi-tualet/images/c/cc/Icon4.png/revision/latest?cb=20240223185436')
   }
 }
